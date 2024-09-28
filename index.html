@@ -3,15 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Frontend 1.0</title>
+    <title>Frontend 2.0</title>
 </head>
 
 <body>
-    <h1>Frontend 1.0</h1>
+    <h1>Frontend 2.0</h1>
     <form action="/useradd" method="POST">
         <label for="username">Имя пользователя:</label>
         <input type="text" id="username" name="username">
+        <label for="email">почта:</label>
+        <input type="text" id="email" name="email">
         <button type="submit">Сохранить</button>
+    </form>
+
+    <form action="/get-data" method="GET"></form>
+        <button type="submit">Вывести пользователей</button>
     </form>
 </body>
 </html>
